@@ -6,7 +6,7 @@
  *
  * Copyright 2022 Robin
  * Released under the MIT license
- * https://opensource.org/licenses/MIT
+ * https://github.com/develobing/canvas/blob/main/projects/01.%20bar-chart-library/LICENSE.md
  */
 
 'use strict';
