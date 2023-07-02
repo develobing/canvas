@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Editor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>Image Editor</h1>
+
+      <section class="menu">
+        <ul class="controls">
+          <li>
+            <input class="open" type="file" />
+          </li>
+          <li>
+            <button class="apply">Apply</button>
+
+            <select name="filters" class="filters">
+              <option value="none">No Filter</option>
+              <option value="grayscale">Gray Scale</option>
+              <option value="sepia">Sepia</option>
+              <option value="brighten">Brighten</option>
+            </select>
+          </li>
+
+          <li><button class="save">Save</button></li>
+        </ul>
+      </section>
+
+      <section class="display-area">
+        <canvas class="image-area" width="800" height="500"></canvas>
+      </section>
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

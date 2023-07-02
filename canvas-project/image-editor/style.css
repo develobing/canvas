@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  background-color: #555;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+.menu {
+  width: 100%;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #ccc;
+}
+
+.display-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-area {
+  background-color: white;
+}
