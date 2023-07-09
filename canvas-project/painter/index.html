@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Canvas Drawing</h1>
+
+      <div class="controls">
+        <button id="redo" onclick>Redo</button>
+        <button id="undo" onclick>Undo</button>
+        <input type="color" id="swatch" />
+        <input type="range" id="size" min="1" max="20" step="1" />
+        <button id="clear">Clear</button>
+        <button id="save">Save</button>
+      </div>
+      <canvas id="canvas" width="800" height="600"></canvas>
+    </div>
+
+    <script src="point.js"></script>
+    <script src="path.js"></script>
+    <script src="paint.js"></script>
+  </body>
+</html>
